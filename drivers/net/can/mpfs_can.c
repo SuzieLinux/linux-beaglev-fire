@@ -913,6 +913,7 @@ static int mpfs_can_probe(struct platform_device *pdev)
 		   priv->reg, ndev->irq, priv->can.clock.freq,
 		   priv->tx_max);
 
+	dev_info(&pdev->dev, "Registered MPFS CAN controller %s\n", ndev->name);
 	return 0;
 
 err:

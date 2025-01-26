@@ -332,6 +332,7 @@ static int mpfs_gpio_probe(struct platform_device *pdev)
 
 	platform_set_drvdata(pdev, mpfs_gpio);
 
+	dev_info(&pdev->dev, "Registered MPFS GPIO controller\n");
 	return 0;
 
 cleanup_clock:

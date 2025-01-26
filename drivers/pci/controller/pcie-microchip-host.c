@@ -27,8 +27,8 @@
 #define MC_ATT_MASK				GENMASK_ULL(63, 31)
 
 /* PCIe Bridge Phy and Controller Phy offsets */
-#define MC_PCIE1_BRIDGE_ADDR			0x00008000u
-#define MC_PCIE1_CTRL_ADDR			0x0000a000u
+#define MC_PCIE1_BRIDGE_ADDR			0x00004000u
+#define MC_PCIE1_CTRL_ADDR			0x00006000u
 
 /* PCIe Bridge Phy Regs */
 #define PCIE_PCI_IRQ_DW0			0xa8
